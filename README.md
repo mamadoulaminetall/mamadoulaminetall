@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo_medflow.png" width="200" alt="MedFlow AI"/>
+  <img src="medflow_logo.png" width="200" alt="MedFlow AI"/>
   <br/><br/>
 
   <h2>Dr. Mamadou Lamine TALL</h2>
