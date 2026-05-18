@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+  <defs>
+    <linearGradient id="rlbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#080612"/><stop offset="100%" stop-color="#0f0a20"/></linearGradient>
+  </defs>
+  <rect width="400" height="130" fill="url(#rlbg)" rx="8"/>
+  <rect x="0" y="0" width="400" height="22" fill="#090718" fill-opacity="0.95" rx="8"/>
+  <rect x="0" y="14" width="400" height="8" fill="#090718" fill-opacity="0.95"/>
+  <text x="10" y="15" font-family="monospace" font-size="8.5" fill="#c084fc" font-weight="700">Revue Littérature IA — PubMed + Claude</text>
+  <text x="300" y="15" font-family="monospace" font-size="7.5" fill="#64748b">Evidence-based</text>
+
+  <!-- Search panel -->
+  <rect x="8" y="27" width="180" height="95" rx="5" fill="#0f0a20" fill-opacity="0.7" stroke="#c084fc" stroke-width="0.4" stroke-opacity="0.3"/>
+  <text x="14" y="38" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">RECHERCHE PUBMED</text>
+  <rect x="14" y="42" width="168" height="10" rx="3" fill="#1a1040"/>
+  <text x="18" y="50" font-family="monospace" font-size="6.5" fill="#c084fc">cardiac transplantation HRV</text>
+  <text x="14" y="62" font-family="monospace" font-size="6.5" fill="#64748b">Résultats : 847 articles</text>
+  <text x="14" y="72" font-family="monospace" font-size="6.5" fill="#64748b">Filtrés RCT + revues : 34</text>
+  <text x="14" y="82" font-family="monospace" font-size="6.5" fill="#64748b">Sélection IA PICO : 18</text>
+  <!-- Article list sketched -->
+  <rect x="14" y="87" width="168" height="8" rx="2" fill="#1a1040"/>
+  <text x="18" y="94" font-family="monospace" font-size="6" fill="#94a3b8">Bengel 2023 · JACC · IF 24.0 ★★★★★</text>
+  <rect x="14" y="97" width="168" height="8" rx="2" fill="#110e30"/>
+  <text x="18" y="104" font-family="monospace" font-size="6" fill="#94a3b8">Stein 2022 · Circulation · IF 37.8 ★★★★★</text>
+  <rect x="14" y="107" width="168" height="8" rx="2" fill="#1a1040"/>
+  <text x="18" y="114" font-family="monospace" font-size="6" fill="#94a3b8">Vaseghi 2021 · Heart Rhythm · IF 5.6 ★★★★</text>
+
+  <!-- Synthesis panel -->
+  <rect x="196" y="27" width="196" height="95" rx="5" fill="#0f0a20" fill-opacity="0.6" stroke="#a855f7" stroke-width="0.5"/>
+  <text x="202" y="38" font-family="monospace" font-size="7" fill="#c084fc" font-weight="700">SYNTHÈSE IA — PICO</text>
+  <rect x="202" y="42" width="184" height="9" rx="2" fill="#1a1040"/>
+  <text x="206" y="49" font-family="monospace" font-size="6.5" fill="#fde68a" font-weight="700">P: Transplantés cardiaques (n=2 847)</text>
+  <rect x="202" y="53" width="184" height="9" rx="2" fill="#110e30"/>
+  <text x="206" y="60" font-family="monospace" font-size="6.5" fill="#fde68a" font-weight="700">I: Réinnervation sympathique</text>
+  <rect x="202" y="64" width="184" height="9" rx="2" fill="#1a1040"/>
+  <text x="206" y="71" font-family="monospace" font-size="6.5" fill="#fde68a" font-weight="700">O: VFC, survie 5 ans, rejets</text>
+  <text x="202" y="83" font-family="monospace" font-size="6.5" fill="#94a3b8">La réinnervation cardiaque post-transplant</text>
+  <text x="202" y="92" font-family="monospace" font-size="6.5" fill="#94a3b8">est associée à une meilleure survie (HR 0.64,</text>
+  <text x="202" y="101" font-family="monospace" font-size="6.5" fill="#94a3b8">IC95% 0.48-0.85, p=0.002) selon 18 études.</text>
+  <rect x="202" y="108" width="80" height="10" rx="3" fill="#7c3aed" fill-opacity="0.2"/>
+  <text x="208" y="116" font-family="monospace" font-size="6.5" fill="#c084fc" font-weight="700">Export DOCX ↓</text>
+  <rect x="288" y="108" width="56" height="10" rx="3" fill="#15803d" fill-opacity="0.2"/>
+  <text x="294" y="116" font-family="monospace" font-size="6.5" fill="#4ade80" font-weight="700">PRISMA ↓</text>
+</svg>

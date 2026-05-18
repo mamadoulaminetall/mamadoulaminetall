@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" width="520" height="180">
+  <defs>
+    <linearGradient id="pg1bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f0a00"/><stop offset="100%" stop-color="#3d2000"/></linearGradient>
+  </defs>
+  <rect width="520" height="180" fill="url(#pg1bg)"/>
+  <rect x="0" y="0" width="520" height="24" fill="#1a1200" fill-opacity="0.95"/>
+  <text x="10" y="16" font-family="monospace" font-size="9" fill="#fbbf24" font-weight="700">🛡 PharmGuard-AI</text>
+  <text x="115" y="16" font-family="monospace" font-size="8" fill="#78716c">Analyse ordonnance · Interactions médicamenteuses</text>
+
+  <!-- Input area -->
+  <rect x="8" y="30" width="240" height="142" rx="6" fill="#1a1200" fill-opacity="0.8" stroke="#fbbf24" stroke-width="0.4" stroke-opacity="0.3"/>
+  <text x="16" y="42" font-family="monospace" font-size="7.5" fill="#a8a29e" font-weight="700">ORDONNANCE SAISIE</text>
+  <rect x="12" y="46" width="232" height="18" rx="3" fill="#292207"/>
+  <text x="18" y="57" font-family="monospace" font-size="8" fill="#fbbf24">Warfarine · 5 mg/j</text>
+  <rect x="222" y="49" width="18" height="10" rx="2" fill="#dc2626" fill-opacity="0.25"/>
+  <text x="224" y="57" font-family="monospace" font-size="6.5" fill="#f87171">⚠</text>
+  <rect x="12" y="68" width="232" height="18" rx="3" fill="#292207"/>
+  <text x="18" y="79" font-family="monospace" font-size="8" fill="#fbbf24">Fluconazole · 200 mg/j</text>
+  <rect x="222" y="71" width="18" height="10" rx="2" fill="#dc2626" fill-opacity="0.25"/>
+  <text x="224" y="79" font-family="monospace" font-size="6.5" fill="#f87171">⚠</text>
+  <rect x="12" y="90" width="232" height="18" rx="3" fill="#1f1a00"/>
+  <text x="18" y="101" font-family="monospace" font-size="8" fill="#e7c77a">Amiodarone · 200 mg/j</text>
+  <rect x="222" y="93" width="18" height="10" rx="2" fill="#d97706" fill-opacity="0.2"/>
+  <text x="224" y="101" font-family="monospace" font-size="6.5" fill="#fbbf24">!</text>
+  <rect x="12" y="112" width="232" height="18" rx="3" fill="#1a1200"/>
+  <text x="18" y="123" font-family="monospace" font-size="8" fill="#9ca3af">Metformine · 850 mg ×2</text>
+  <rect x="222" y="115" width="18" height="10" rx="2" fill="#16a34a" fill-opacity="0.2"/>
+  <text x="224" y="123" font-family="monospace" font-size="6.5" fill="#4ade80">✓</text>
+
+  <rect x="12" y="136" width="232" height="28" rx="4" fill="#292207" stroke="#fbbf24" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="90" y="147" font-family="monospace" font-size="8" fill="#fbbf24" font-weight="700">+ Ajouter médicament</text>
+  <text x="58" y="158" font-family="monospace" font-size="7" fill="#78716c">ou importer ordonnance PDF / photo</text>
+
+  <!-- Right: quick stats -->
+  <rect x="256" y="30" width="256" height="142" rx="6" fill="#120a00" fill-opacity="0.7" stroke="#f87171" stroke-width="0.4" stroke-opacity="0.3"/>
+  <text x="264" y="42" font-family="monospace" font-size="7.5" fill="#a8a29e" font-weight="700">ANALYSE RAPIDE</text>
+  <text x="264" y="56" font-family="monospace" font-size="8" fill="#f87171" font-weight="700">3 interactions détectées</text>
+  <rect x="260" y="60" width="95" height="18" rx="4" fill="#2a0a0a" stroke="#dc2626" stroke-width="0.6"/>
+  <text x="266" y="72" font-family="monospace" font-size="7.5" fill="#f87171">1 MAJEURE</text>
+  <rect x="362" y="60" width="80" height="18" rx="4" fill="#1f1200" stroke="#d97706" stroke-width="0.6"/>
+  <text x="368" y="72" font-family="monospace" font-size="7.5" fill="#fbbf24">1 MODÉRÉE</text>
+  <rect x="260" y="84" width="95" height="18" rx="4" fill="#0f1206" stroke="#facc15" stroke-width="0.5"/>
+  <text x="266" y="96" font-family="monospace" font-size="7.5" fill="#fef08a">1 QT LONG</text>
+
+  <text x="264" y="114" font-family="monospace" font-size="7" fill="#78716c" font-weight="700">PROFIL DE RISQUE</text>
+  <text x="264" y="126" font-family="monospace" font-size="7" fill="#78716c">CYP2C9 inhibé à</text>
+  <rect x="340" y="119" width="80" height="8" rx="3" fill="#1c1700"/>
+  <rect x="340" y="119" width="68" height="8" rx="3" fill="#dc2626" fill-opacity="0.5"/>
+  <text x="425" y="127" font-family="monospace" font-size="7" fill="#f87171">87%</text>
+  <text x="264" y="140" font-family="monospace" font-size="7" fill="#78716c">Risque global</text>
+  <rect x="340" y="133" width="80" height="8" rx="3" fill="#1c1700"/>
+  <rect x="340" y="133" width="65" height="8" rx="3" fill="#dc2626" fill-opacity="0.6"/>
+  <text x="425" y="141" font-family="monospace" font-size="7" fill="#f87171">ÉLEVÉ</text>
+
+  <rect x="260" y="152" width="92" height="14" rx="4" fill="#dc2626" fill-opacity="0.18" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="270" y="162" font-family="monospace" font-size="7.5" fill="#f87171" font-weight="700">Voir les alertes →</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080e1a"/><stop offset="100%" stop-color="#0a1c14"/>
+  </linearGradient>
+</defs>
+<rect width="520" height="200" fill="url(#bg)"/>
+<!-- Header -->
+<rect width="520" height="34" fill="#0b1f16"/>
+<rect x="10" y="10" width="8" height="14" rx="2" fill="#10b981"/>
+<rect x="20" y="10" width="6" height="6" rx="1" fill="#10b981" opacity=".5"/>
+<rect x="20" y="18" width="6" height="6" rx="1" fill="#10b981" opacity=".3"/>
+<text x="32" y="22" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#10b981">BioReport AI</text>
+<text x="185" y="22" font-family="system-ui,sans-serif" font-size="9" fill="#475569">Patient · M. Dupont · 54 ans · Bilan de routine</text>
+<rect x="398" y="7" width="114" height="20" rx="10" fill="#10b98118"/>
+<text x="455" y="21" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#10b981" text-anchor="middle">✓ Analyse IA complète</text>
+<!-- Column headers -->
+<text x="14" y="52" font-family="system-ui,sans-serif" font-size="8" fill="#334155">PARAMÈTRE</text>
+<text x="155" y="52" font-family="system-ui,sans-serif" font-size="8" fill="#334155">VALEUR</text>
+<text x="200" y="52" font-family="system-ui,sans-serif" font-size="8" fill="#334155">REF</text>
+<text x="255" y="52" font-family="system-ui,sans-serif" font-size="8" fill="#334155">STATUT</text>
+<text x="330" y="52" font-family="system-ui,sans-serif" font-size="8" fill="#334155">NIVEAU</text>
+<!-- Row 1 Glucose elevated -->
+<rect x="8" y="55" width="504" height="22" rx="3" fill="#ffffff06"/>
+<text x="14" y="70" font-family="system-ui,sans-serif" font-size="10" fill="#e2e8f0">Glucose à jeun</text>
+<text x="155" y="70" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#f59e0b">7.2 mmol/L</text>
+<text x="200" y="70" font-family="system-ui,sans-serif" font-size="8" fill="#475569">3.9-6.0</text>
+<rect x="252" y="60" width="50" height="14" rx="7" fill="#f59e0b1a"/>
+<text x="277" y="70" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f59e0b" text-anchor="middle">↑ ÉLEVÉ</text>
+<rect x="330" y="64" width="100" height="5" rx="2" fill="#1e293b"/>
+<rect x="330" y="64" width="74" height="5" rx="2" fill="#f59e0b"/>
+<!-- Row 2 HbA1c high -->
+<rect x="8" y="79" width="504" height="22" rx="3" fill="#ffffff03"/>
+<text x="14" y="94" font-family="system-ui,sans-serif" font-size="10" fill="#e2e8f0">HbA1c</text>
+<text x="155" y="94" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#f87171">8.1 %</text>
+<text x="200" y="94" font-family="system-ui,sans-serif" font-size="8" fill="#475569">&lt;5.7%</text>
+<rect x="252" y="84" width="50" height="14" rx="7" fill="#f871711a"/>
+<text x="277" y="94" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f87171" text-anchor="middle">↑↑ HAUT</text>
+<rect x="330" y="88" width="100" height="5" rx="2" fill="#1e293b"/>
+<rect x="330" y="88" width="92" height="5" rx="2" fill="#f87171"/>
+<!-- Row 3 LDL normal -->
+<rect x="8" y="103" width="504" height="22" rx="3" fill="#ffffff06"/>
+<text x="14" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#e2e8f0">LDL cholestérol</text>
+<text x="155" y="118" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#10b981">2.8 mmol/L</text>
+<text x="200" y="118" font-family="system-ui,sans-serif" font-size="8" fill="#475569">&lt;3.4</text>
+<rect x="252" y="108" width="50" height="14" rx="7" fill="#10b9811a"/>
+<text x="277" y="118" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#10b981" text-anchor="middle">✓ OK</text>
+<rect x="330" y="112" width="100" height="5" rx="2" fill="#1e293b"/>
+<rect x="330" y="112" width="56" height="5" rx="2" fill="#10b981"/>
+<!-- Row 4 TSH normal -->
+<rect x="8" y="127" width="504" height="22" rx="3" fill="#ffffff03"/>
+<text x="14" y="142" font-family="system-ui,sans-serif" font-size="10" fill="#e2e8f0">TSH</text>
+<text x="155" y="142" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#10b981">1.8 mUI/L</text>
+<text x="200" y="142" font-family="system-ui,sans-serif" font-size="8" fill="#475569">0.4-4.0</text>
+<rect x="252" y="132" width="50" height="14" rx="7" fill="#10b9811a"/>
+<text x="277" y="142" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#10b981" text-anchor="middle">✓ OK</text>
+<rect x="330" y="136" width="100" height="5" rx="2" fill="#1e293b"/>
+<rect x="330" y="136" width="38" height="5" rx="2" fill="#10b981"/>
+<!-- Row 5 CRP elevated -->
+<rect x="8" y="151" width="504" height="22" rx="3" fill="#ffffff06"/>
+<text x="14" y="166" font-family="system-ui,sans-serif" font-size="10" fill="#e2e8f0">CRP ultrasensible</text>
+<text x="155" y="166" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#f59e0b">4.2 mg/L</text>
+<text x="200" y="166" font-family="system-ui,sans-serif" font-size="8" fill="#475569">&lt;3.0</text>
+<rect x="252" y="156" width="50" height="14" rx="7" fill="#f59e0b1a"/>
+<text x="277" y="166" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f59e0b" text-anchor="middle">↑ ÉLEVÉ</text>
+<rect x="330" y="160" width="100" height="5" rx="2" fill="#1e293b"/>
+<rect x="330" y="160" width="65" height="5" rx="2" fill="#f59e0b"/>
+<!-- AI Summary -->
+<rect x="8" y="177" width="504" height="18" rx="4" fill="#10b98112" stroke="#10b98128" stroke-width="1"/>
+<text x="16" y="189" font-family="system-ui,sans-serif" font-size="8.5" fill="#34d399">🤖  IA : Diabète de type 2 déséquilibré — HbA1c critique. Risque cardiovasculaire modéré-élevé. Consultation endocrinologie recommandée.</text>
+</svg>

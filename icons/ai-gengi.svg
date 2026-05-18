@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07091a"/><stop offset="100%" stop-color="#0d0a22"/>
+  </linearGradient>
+</defs>
+<rect width="520" height="200" fill="url(#bg2)"/>
+<!-- Header -->
+<rect width="520" height="34" fill="#0e0b22"/>
+<text x="14" y="22" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">GenGI</text>
+<text x="66" y="22" font-family="system-ui,sans-serif" font-size="9" fill="#475569">Prédiction pathogénicité · DNA-LLM · Nucleotide Transformer</text>
+<rect x="398" y="7" width="114" height="20" rx="10" fill="#a78bfa18"/>
+<text x="455" y="21" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#a78bfa" text-anchor="middle">AUC = 0.91</text>
+<!-- Left panel: DNA sequence -->
+<rect x="8" y="40" width="200" height="86" rx="6" fill="#0d0b1e" stroke="#a78bfa20" stroke-width="1"/>
+<text x="16" y="55" font-family="system-ui,sans-serif" font-size="8" fill="#6d28d9">SÉQUENCE · chr17:43,044,295</text>
+<!-- DNA bases colored -->
+<text x="16" y="70" font-family="monospace,sans-serif" font-size="9" fill="#60a5fa">ATG</text>
+<text x="38" y="70" font-family="monospace,sans-serif" font-size="9" fill="#34d399">GAA</text>
+<text x="60" y="70" font-family="monospace,sans-serif" font-size="9" fill="#f87171">TTC</text>
+<text x="82" y="70" font-family="monospace,sans-serif" font-size="9" fill="#fbbf24">AGC</text>
+<text x="104" y="70" font-family="monospace,sans-serif" font-size="9" fill="#60a5fa">CTG</text>
+<text x="126" y="70" font-family="monospace,sans-serif" font-size="9" fill="#34d399">AAT</text>
+<text x="148" y="70" font-family="monospace,sans-serif" font-size="9" fill="#f87171">GCC</text>
+<text x="170" y="70" font-family="monospace,sans-serif" font-size="9" fill="#fbbf24">TTA</text>
+<text x="16" y="82" font-family="monospace,sans-serif" font-size="9" fill="#34d399">GGA</text>
+<text x="38" y="82" font-family="monospace,sans-serif" font-size="9" fill="#f87171">CCT</text>
+<text x="60" y="82" font-family="monospace,sans-serif" font-size="9" fill="#a78bfa" font-weight="700">▶TA</text>
+<text x="82" y="82" font-family="monospace,sans-serif" font-size="9" fill="#a78bfa" font-weight="700">G◀</text>
+<text x="104" y="82" font-family="monospace,sans-serif" font-size="9" fill="#60a5fa">ATC</text>
+<text x="126" y="82" font-family="monospace,sans-serif" font-size="9" fill="#34d399">GGA</text>
+<text x="148" y="82" font-family="monospace,sans-serif" font-size="9" fill="#fbbf24">TCG</text>
+<text x="170" y="82" font-family="monospace,sans-serif" font-size="9" fill="#f87171">AAG</text>
+<rect x="60" y="73" width="30" height="12" rx="2" fill="#a78bfa20" stroke="#a78bfa40" stroke-width="1"/>
+<text x="16" y="100" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">Variant : rs80357906  c.5266dupC</text>
+<text x="16" y="113" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">Gène : BRCA1  ·  Exon 20  ·  p.Gln1756fs</text>
+<!-- Right panel: Score gauge -->
+<rect x="218" y="40" width="140" height="86" rx="6" fill="#0d0b1e" stroke="#a78bfa20" stroke-width="1"/>
+<text x="288" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#6d28d9" text-anchor="middle">SCORE PATHOGÉNICITÉ</text>
+<!-- Arc gauge -->
+<path d="M 248 100 A 40 40 0 0 1 328 100" stroke="#1e1b4b" stroke-width="10" fill="none"/>
+<path d="M 248 100 A 40 40 0 0 1 328 100" stroke="#a78bfa" stroke-width="10" fill="none" stroke-dasharray="126" stroke-dashoffset="13"/>
+<text x="288" y="96" font-family="system-ui,sans-serif" font-size="20" font-weight="900" fill="#a78bfa" text-anchor="middle">0.94</text>
+<text x="288" y="110" font-family="system-ui,sans-serif" font-size="8" fill="#7c3aed" text-anchor="middle">PATHOGÈNE</text>
+<rect x="238" y="115" width="100" height="8" rx="4" fill="#1e1b4b"/>
+<rect x="238" y="115" width="94" height="8" rx="4" fill="url(#pg)"/>
+<defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#4c1d95"/><stop offset="100%" stop-color="#a78bfa"/>
+</linearGradient></defs>
+<!-- SHAP panel -->
+<rect x="368" y="40" width="144" height="86" rx="6" fill="#0d0b1e" stroke="#a78bfa20" stroke-width="1"/>
+<text x="376" y="55" font-family="system-ui,sans-serif" font-size="8" fill="#6d28d9">SHAP — FEATURES</text>
+<text x="376" y="70" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8">Conservation</text>
+<rect x="448" y="62" width="56" height="8" rx="2" fill="#a78bfa60"/>
+<text x="507" y="70" font-family="system-ui,sans-serif" font-size="8" fill="#a78bfa" text-anchor="end">+0.38</text>
+<text x="376" y="83" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8">Fréquence pop.</text>
+<rect x="448" y="75" width="42" height="8" rx="2" fill="#a78bfa40"/>
+<text x="507" y="83" font-family="system-ui,sans-serif" font-size="8" fill="#a78bfa" text-anchor="end">+0.24</text>
+<text x="376" y="96" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8">Contexte exon</text>
+<rect x="448" y="88" width="28" height="8" rx="2" fill="#a78bfa30"/>
+<text x="507" y="96" font-family="system-ui,sans-serif" font-size="8" fill="#a78bfa" text-anchor="end">+0.18</text>
+<text x="376" y="109" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8">Splicing score</text>
+<rect x="448" y="101" width="16" height="8" rx="2" fill="#6366f130"/>
+<text x="507" y="109" font-family="system-ui,sans-serif" font-size="8" fill="#6366f1" text-anchor="end">-0.09</text>
+<!-- Classification ACMG -->
+<rect x="8" y="132" width="504" height="22" rx="4" fill="#7c3aed12" stroke="#7c3aed28" stroke-width="1"/>
+<text x="16" y="147" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#a78bfa">Classification ACMG 2024</text>
+<rect x="160" y="135" width="90" height="16" rx="8" fill="#7c3aed30"/>
+<text x="205" y="146" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#a78bfa" text-anchor="middle">PATHOGÈNE (PVS1)</text>
+<text x="262" y="147" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">ClinVar confirmé · Lit. : 14 études</text>
+<!-- Database checks -->
+<rect x="8" y="158" width="150" height="36" rx="6" fill="#0d0b1e" stroke="#a78bfa15" stroke-width="1"/>
+<text x="16" y="172" font-family="system-ui,sans-serif" font-size="8" fill="#475569">ClinVar</text>
+<rect x="65" y="163" width="60" height="10" rx="5" fill="#f871711a"/>
+<text x="95" y="172" font-family="system-ui,sans-serif" font-size="8" fill="#f87171" text-anchor="middle">Pathogenic</text>
+<text x="16" y="187" font-family="system-ui,sans-serif" font-size="8" fill="#475569">gnomAD MAF</text>
+<text x="95" y="187" font-family="system-ui,sans-serif" font-size="8" fill="#10b981" text-anchor="middle">0.000003</text>
+<rect x="166" y="158" width="170" height="36" rx="6" fill="#0d0b1e" stroke="#a78bfa15" stroke-width="1"/>
+<text x="174" y="172" font-family="system-ui,sans-serif" font-size="8" fill="#475569">SIFT score</text>
+<text x="260" y="172" font-family="system-ui,sans-serif" font-size="8" fill="#f87171" text-anchor="middle">Délétère (0.00)</text>
+<text x="174" y="187" font-family="system-ui,sans-serif" font-size="8" fill="#475569">PolyPhen-2</text>
+<text x="260" y="187" font-family="system-ui,sans-serif" font-size="8" fill="#f87171" text-anchor="middle">Probablement patho.</text>
+<rect x="344" y="158" width="168" height="36" rx="6" fill="#7c3aed0d" stroke="#7c3aed20" stroke-width="1"/>
+<text x="352" y="173" font-family="system-ui,sans-serif" font-size="9" fill="#a78bfa" font-weight="700">Recommandation</text>
+<text x="352" y="186" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8">Conseil génétique · Test famille</text>
+</svg>

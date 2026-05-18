@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+  <defs>
+    <linearGradient id="qbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#060d12"/><stop offset="100%" stop-color="#091a1a"/></linearGradient>
+  </defs>
+  <rect width="400" height="130" fill="url(#qbg)" rx="8"/>
+  <rect x="0" y="0" width="400" height="22" fill="#0a1a1a" fill-opacity="0.95" rx="8"/>
+  <rect x="0" y="14" width="400" height="8" fill="#0a1a1a" fill-opacity="0.95"/>
+  <text x="10" y="15" font-family="monospace" font-size="8.5" fill="#5eead4" font-weight="700">QoL Cardiac — 4 questionnaires · 600 patients</text>
+  <text x="310" y="15" font-family="monospace" font-size="7.5" fill="#64748b">Percentiles</text>
+
+  <!-- Score bars -->
+  <text x="10" y="34" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">KCCQ</text>
+  <rect x="52" y="27" width="200" height="9" rx="3" fill="#0f2a2a"/>
+  <rect x="52" y="27" width="148" height="9" rx="3" fill="#5eead4" fill-opacity="0.7"/>
+  <text x="256" y="35" font-family="monospace" font-size="7.5" fill="#5eead4" font-weight="700">74/100</text>
+  <text x="305" y="35" font-family="monospace" font-size="7" fill="#64748b">P68</text>
+
+  <text x="10" y="50" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">SF-36</text>
+  <rect x="52" y="43" width="200" height="9" rx="3" fill="#0f2a2a"/>
+  <rect x="52" y="43" width="116" height="9" rx="3" fill="#34d399" fill-opacity="0.7"/>
+  <text x="256" y="51" font-family="monospace" font-size="7.5" fill="#34d399" font-weight="700">58/100</text>
+  <text x="305" y="51" font-family="monospace" font-size="7" fill="#64748b">P51</text>
+
+  <text x="10" y="66" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">MLHFQ</text>
+  <rect x="52" y="59" width="200" height="9" rx="3" fill="#0f2a2a"/>
+  <rect x="52" y="59" width="170" height="9" rx="3" fill="#2dd4bf" fill-opacity="0.65"/>
+  <text x="256" y="67" font-family="monospace" font-size="7.5" fill="#2dd4bf" font-weight="700">85/105</text>
+  <text x="305" y="67" font-family="monospace" font-size="7" fill="#64748b">P77</text>
+
+  <text x="10" y="82" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">EQ-5D</text>
+  <rect x="52" y="75" width="200" height="9" rx="3" fill="#0f2a2a"/>
+  <rect x="52" y="75" width="130" height="9" rx="3" fill="#5eead4" fill-opacity="0.55"/>
+  <text x="256" y="83" font-family="monospace" font-size="7.5" fill="#5eead4" font-weight="700">0.65</text>
+  <text x="305" y="83" font-family="monospace" font-size="7" fill="#64748b">P59</text>
+
+  <!-- Right: population curve sketch -->
+  <rect x="338" y="26" width="54" height="68" rx="4" fill="#0a1a1a" fill-opacity="0.6" stroke="#5eead4" stroke-width="0.4" stroke-opacity="0.3"/>
+  <text x="341" y="37" font-family="monospace" font-size="6" fill="#64748b">Pop. ref.</text>
+  <polyline points="342,88 348,80 354,66 360,58 366,62 372,75 378,85 384,89" fill="none" stroke="#5eead4" stroke-width="1.2" stroke-opacity="0.5"/>
+  <line x1="360" y1="42" x2="360" y2="90" stroke="#f87171" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <text x="355" y="96" font-family="monospace" font-size="5.5" fill="#f87171">Patient</text>
+
+  <!-- Footer -->
+  <rect x="8" y="95" width="320" height="27" rx="4" fill="#0f2a2a" fill-opacity="0.5"/>
+  <text x="14" y="106" font-family="monospace" font-size="7" fill="#94a3b8">Analyse IA</text>
+  <text x="14" y="116" font-family="monospace" font-size="7" fill="#5eead4">KCCQ &gt; médiane · SF-36 physique limite · suivi 3 mois conseillé</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07060f"/><stop offset="100%" stop-color="#0e0a20"/></linearGradient>
+  </defs>
+  <rect width="400" height="130" fill="url(#bbg)" rx="8"/>
+  <rect x="0" y="0" width="400" height="22" fill="#0a0818" fill-opacity="0.95" rx="8"/>
+  <rect x="0" y="14" width="400" height="8" fill="#0a0818" fill-opacity="0.95"/>
+  <text x="10" y="15" font-family="monospace" font-size="8.5" fill="#a78bfa" font-weight="700">Biostatistiques — CSV → Analyse → Publication</text>
+  <text x="328" y="15" font-family="monospace" font-size="7.5" fill="#64748b">p &lt; 0.05 ✓</text>
+
+  <!-- Left: stat results -->
+  <rect x="8" y="27" width="155" height="95" rx="5" fill="#0e0a20" fill-opacity="0.7" stroke="#a78bfa" stroke-width="0.4" stroke-opacity="0.3"/>
+  <text x="14" y="39" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">RÉSULTATS STATISTIQUES</text>
+  <rect x="14" y="43" width="143" height="14" rx="3" fill="#1a1040"/>
+  <text x="18" y="53" font-family="monospace" font-size="7" fill="#a78bfa">t-test indépendant</text>
+  <text x="130" y="53" font-family="monospace" font-size="7" fill="#4ade80" font-weight="700">p=0.031</text>
+  <rect x="14" y="60" width="143" height="14" rx="3" fill="#110e30"/>
+  <text x="18" y="70" font-family="monospace" font-size="7" fill="#a78bfa">ANOVA (3 groupes)</text>
+  <text x="130" y="70" font-family="monospace" font-size="7" fill="#4ade80" font-weight="700">p=0.008</text>
+  <rect x="14" y="77" width="143" height="14" rx="3" fill="#1a1040"/>
+  <text x="18" y="87" font-family="monospace" font-size="7" fill="#a78bfa">Test de Shapiro-Wilk</text>
+  <text x="130" y="87" font-family="monospace" font-size="7" fill="#fbbf24">p=0.12</text>
+  <rect x="14" y="94" width="143" height="14" rx="3" fill="#110e30"/>
+  <text x="18" y="104" font-family="monospace" font-size="7" fill="#a78bfa">Cohen's d</text>
+  <text x="130" y="104" font-family="monospace" font-size="7" fill="#c4b5fd" font-weight="700">0.72</text>
+  <text x="14" y="117" font-family="monospace" font-size="6.5" fill="#64748b">Puissance: 84% · n=87</text>
+
+  <!-- Right: Kaplan-Meier sketch -->
+  <rect x="170" y="27" width="222" height="95" rx="5" fill="#0e0a20" fill-opacity="0.5" stroke="#a78bfa" stroke-width="0.3" stroke-opacity="0.3"/>
+  <text x="176" y="38" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">KAPLAN-MEIER — Survie 5 ans</text>
+  <!-- Axes -->
+  <line x1="186" y1="42" x2="186" y2="108" stroke="#334155" stroke-width="0.8"/>
+  <line x1="186" y1="108" x2="382" y2="108" stroke="#334155" stroke-width="0.8"/>
+  <!-- Group 1 (treatment) -->
+  <polyline points="186,44 206,44 206,52 226,52 226,57 246,57 246,64 266,64 266,70 286,70 286,76 306,76 306,80 326,80 326,83 346,83 346,85 366,85 366,87 382,87" fill="none" stroke="#a78bfa" stroke-width="1.4"/>
+  <!-- Group 2 (control) -->
+  <polyline points="186,44 206,44 206,56 226,56 226,66 246,66 246,75 266,75 266,83 286,83 286,90 306,90 306,96 326,96 326,100 346,100 346,103 366,103 366,106 382,106" fill="none" stroke="#f87171" stroke-width="1.4" stroke-dasharray="4,2"/>
+  <!-- Y labels -->
+  <text x="176" y="46" font-family="monospace" font-size="6" fill="#64748b">1.0</text>
+  <text x="176" y="76" font-family="monospace" font-size="6" fill="#64748b">0.5</text>
+  <text x="176" y="109" font-family="monospace" font-size="6" fill="#64748b">0</text>
+  <!-- X labels -->
+  <text x="183" y="117" font-family="monospace" font-size="6" fill="#64748b">0</text>
+  <text x="244" y="117" font-family="monospace" font-size="6" fill="#64748b">12</text>
+  <text x="304" y="117" font-family="monospace" font-size="6" fill="#64748b">24</text>
+  <text x="364" y="117" font-family="monospace" font-size="6" fill="#64748b">60m</text>
+  <!-- Legend -->
+  <line x1="270" y1="34" x2="284" y2="34" stroke="#a78bfa" stroke-width="1.4"/>
+  <text x="287" y="37" font-family="monospace" font-size="6" fill="#a78bfa">Traitement</text>
+  <line x1="336" y1="34" x2="350" y2="34" stroke="#f87171" stroke-width="1.4" stroke-dasharray="4,2"/>
+  <text x="353" y="37" font-family="monospace" font-size="6" fill="#f87171">Contrôle</text>
+</svg>

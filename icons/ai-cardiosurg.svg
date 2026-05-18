@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+<defs>
+  <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#120609"/><stop offset="100%" stop-color="#1a0810"/>
+  </linearGradient>
+  <linearGradient id="gauge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#f87171"/>
+  </linearGradient>
+</defs>
+<rect width="520" height="200" fill="url(#bg5)"/>
+<rect width="520" height="34" fill="#190609"/>
+<text x="14" y="22" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#fda4af">CardioSurg AI</text>
+<text x="120" y="22" font-family="system-ui,sans-serif" font-size="9" fill="#475569">Risque opératoire cardiaque · ML + EuroSCORE II · AUC 0.961</text>
+<!-- Patient panel -->
+<rect x="8" y="40" width="190" height="154" rx="6" fill="#160509" stroke="#fda4af20" stroke-width="1"/>
+<text x="16" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#be185d">PATIENT · PARAMÈTRES</text>
+<text x="16" y="72" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">Âge</text><text x="120" y="72" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f1f5f9" text-anchor="end">72 ans</text>
+<line x1="16" y1="76" x2="188" y2="76" stroke="#1e293b" stroke-width="1"/>
+<text x="16" y="90" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">Sexe</text><text x="120" y="90" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f1f5f9" text-anchor="end">Homme</text>
+<line x1="16" y1="94" x2="188" y2="94" stroke="#1e293b" stroke-width="1"/>
+<text x="16" y="108" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">FE VG</text><text x="120" y="108" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f87171" text-anchor="end">28 %</text>
+<line x1="16" y1="112" x2="188" y2="112" stroke="#1e293b" stroke-width="1"/>
+<text x="16" y="126" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">Dialyse</text><rect x="112" y="116" width="28" height="13" rx="6" fill="#f8717120"/><text x="126" y="126" font-family="system-ui,sans-serif" font-size="8" fill="#f87171" text-anchor="middle">Oui</text>
+<line x1="16" y1="130" x2="188" y2="130" stroke="#1e293b" stroke-width="1"/>
+<text x="16" y="144" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">Chirurgie</text><text x="120" y="144" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f1f5f9" text-anchor="end">RVA + PAC</text>
+<line x1="16" y1="148" x2="188" y2="148" stroke="#1e293b" stroke-width="1"/>
+<text x="16" y="162" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">NYHA</text><text x="120" y="162" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f59e0b" text-anchor="end">III</text>
+<line x1="16" y1="166" x2="188" y2="166" stroke="#1e293b" stroke-width="1"/>
+<text x="16" y="180" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">Créatinine</text><text x="120" y="180" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f87171" text-anchor="end">248 µmol/L</text>
+<!-- Risk gauge center -->
+<rect x="206" y="40" width="170" height="154" rx="6" fill="#160509" stroke="#fda4af20" stroke-width="1"/>
+<text x="291" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#be185d" text-anchor="middle">RISQUE MORTALITÉ J30</text>
+<!-- Gauge arc -->
+<rect x="216" y="64" width="150" height="12" rx="6" fill="#1e293b"/>
+<rect x="216" y="64" width="150" height="12" rx="6" fill="url(#gauge)" opacity=".3"/>
+<rect x="216" y="64" width="114" height="12" rx="6" fill="url(#gauge)"/>
+<!-- Needle position indicator -->
+<rect x="322" y="60" width="3" height="20" rx="1" fill="#fff" opacity=".8"/>
+<!-- Big score -->
+<text x="291" y="112" font-family="system-ui,sans-serif" font-size="34" font-weight="900" fill="#f87171" text-anchor="middle">24.8%</text>
+<rect x="241" y="118" width="100" height="16" rx="8" fill="#f8717130"/>
+<text x="291" y="130" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f87171" text-anchor="middle">RISQUE ÉLEVÉ</text>
+<!-- Comparison -->
+<text x="291" y="152" font-family="system-ui,sans-serif" font-size="8" fill="#64748b" text-anchor="middle">EuroSCORE II logistique</text>
+<text x="291" y="165" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#f59e0b" text-anchor="middle">19.3%</text>
+<text x="291" y="178" font-family="system-ui,sans-serif" font-size="7" fill="#475569" text-anchor="middle">ML supérieur (+AUC 0.031)</text>
+<!-- Right panel: recommendations -->
+<rect x="384" y="40" width="128" height="154" rx="6" fill="#160509" stroke="#fda4af20" stroke-width="1"/>
+<text x="392" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#be185d">RECOMMANDATIONS</text>
+<rect x="392" y="62" width="112" height="22" rx="4" fill="#f8717118"/>
+<text x="398" y="73" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f87171">⚠ Chirurgie à haut</text>
+<text x="398" y="83" font-family="system-ui,sans-serif" font-size="8" fill="#f87171">risque (ACC/AHA IIb)</text>
+<text x="392" y="100" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8">Optimisation :</text>
+<text x="392" y="113" font-family="system-ui,sans-serif" font-size="7.5" fill="#e2e8f0">→ Dialyse pré-op</text>
+<text x="392" y="125" font-family="system-ui,sans-serif" font-size="7.5" fill="#e2e8f0">→ TAVI si éligible</text>
+<text x="392" y="137" font-family="system-ui,sans-serif" font-size="7.5" fill="#e2e8f0">→ Rééval. FE VG</text>
+<text x="392" y="149" font-family="system-ui,sans-serif" font-size="7.5" fill="#e2e8f0">→ Soutien inotrop.</text>
+<rect x="392" y="158" width="112" height="30" rx="4" fill="#10b9811a" stroke="#10b98130" stroke-width="1"/>
+<text x="448" y="170" font-family="system-ui,sans-serif" font-size="7.5" fill="#10b981" text-anchor="middle">Survie 1 an estimée</text>
+<text x="448" y="182" font-family="system-ui,sans-serif" font-size="12" font-weight="900" fill="#10b981" text-anchor="middle">61%</text>
+</svg>

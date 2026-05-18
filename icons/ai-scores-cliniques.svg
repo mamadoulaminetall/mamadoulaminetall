@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+  <defs>
+    <linearGradient id="scbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#060a12"/><stop offset="100%" stop-color="#0a1228"/></linearGradient>
+  </defs>
+  <rect width="400" height="130" fill="url(#scbg)" rx="8"/>
+  <rect x="0" y="0" width="400" height="22" fill="#080e1f" fill-opacity="0.95" rx="8"/>
+  <rect x="0" y="14" width="400" height="8" fill="#080e1f" fill-opacity="0.95"/>
+  <text x="10" y="15" font-family="monospace" font-size="8.5" fill="#60a5fa" font-weight="700">Scores Cliniques — 15 scores validés</text>
+  <text x="298" y="15" font-family="monospace" font-size="7.5" fill="#64748b">Interprétation IA</text>
+
+  <!-- Score chips -->
+  <rect x="8" y="27" width="76" height="14" rx="3" fill="#1e3a5f"/>
+  <text x="12" y="37" font-family="monospace" font-size="7" fill="#93c5fd" font-weight="700">CHA₂DS₂-VASc</text>
+  <rect x="90" y="27" width="48" height="14" rx="3" fill="#1e3a5f"/>
+  <text x="95" y="37" font-family="monospace" font-size="7" fill="#93c5fd">HEART</text>
+  <rect x="144" y="27" width="40" height="14" rx="3" fill="#1e3a5f"/>
+  <text x="149" y="37" font-family="monospace" font-size="7" fill="#93c5fd">qSOFA</text>
+  <rect x="190" y="27" width="50" height="14" rx="3" fill="#1e3a5f"/>
+  <text x="194" y="37" font-family="monospace" font-size="7" fill="#93c5fd">Glasgow</text>
+  <rect x="246" y="27" width="42" height="14" rx="3" fill="#1e3a5f"/>
+  <text x="250" y="37" font-family="monospace" font-size="7" fill="#93c5fd">SOFA</text>
+  <rect x="294" y="27" width="50" height="14" rx="3" fill="#1e3a5f"/>
+  <text x="298" y="37" font-family="monospace" font-size="7" fill="#93c5fd">Child-Pugh</text>
+
+  <!-- Active score result: HEART -->
+  <rect x="8" y="47" width="260" height="55" rx="5" fill="#0d1f40" stroke="#3b82f6" stroke-width="0.6"/>
+  <text x="14" y="59" font-family="monospace" font-size="7.5" fill="#60a5fa" font-weight="700">Score HEART — Douleur thoracique</text>
+  <text x="14" y="71" font-family="monospace" font-size="7" fill="#94a3b8">H:2 · E:1 · A:1 · R:1 · T:1</text>
+  <rect x="14" y="75" width="160" height="8" rx="3" fill="#1e3a5f"/>
+  <rect x="14" y="75" width="96" height="8" rx="3" fill="#f59e0b" fill-opacity="0.75"/>
+  <text x="178" y="83" font-family="monospace" font-size="7.5" fill="#fbbf24" font-weight="700">6/10</text>
+  <rect x="14" y="88" width="54" height="10" rx="3" fill="#d97706" fill-opacity="0.2"/>
+  <text x="18" y="96" font-family="monospace" font-size="7" fill="#fbbf24" font-weight="700">RISQUE MODÉRÉ</text>
+  <text x="80" y="96" font-family="monospace" font-size="7" fill="#64748b">MACE 12-30% → admission</text>
+
+  <!-- qSOFA quick result -->
+  <rect x="276" y="47" width="116" height="55" rx="5" fill="#0d1f40" stroke="#3b82f6" stroke-width="0.5"/>
+  <text x="282" y="59" font-family="monospace" font-size="7" fill="#60a5fa" font-weight="700">qSOFA</text>
+  <text x="282" y="71" font-family="monospace" font-size="7.5" fill="#f1f5f9">Score : 2/3</text>
+  <rect x="282" y="74" width="72" height="8" rx="3" fill="#1e3a5f"/>
+  <rect x="282" y="74" width="48" height="8" rx="3" fill="#ef4444" fill-opacity="0.65"/>
+  <text x="282" y="92" font-family="monospace" font-size="7" fill="#f87171" font-weight="700">Sepsis probable</text>
+  <text x="282" y="100" font-family="monospace" font-size="6.5" fill="#64748b">Mortalité 24h: 18%</text>
+
+  <rect x="8" y="108" width="384" height="16" rx="3" fill="#0d1f40" fill-opacity="0.5"/>
+  <text x="14" y="119" font-family="monospace" font-size="7" fill="#64748b">+ 9 autres scores : Wells TVP, CURB-65, Centor, PSI, NIHSS, GRACE, TIMI, MELD, Braden</text>
+</svg>

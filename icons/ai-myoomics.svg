@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+<defs>
+  <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08091a"/><stop offset="100%" stop-color="#0a0d20"/>
+  </linearGradient>
+  <radialGradient id="glow1" cx="35%" cy="45%">
+    <stop offset="0%" stop-color="#818cf820"/><stop offset="100%" stop-color="transparent"/>
+  </radialGradient>
+</defs>
+<rect width="520" height="200" fill="url(#bg3)"/>
+<rect width="520" height="200" fill="url(#glow1)"/>
+<!-- Header -->
+<rect width="520" height="34" fill="#090b1c"/>
+<text x="14" y="22" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#818cf8">MYOomics</text>
+<text x="95" y="22" font-family="system-ui,sans-serif" font-size="9" fill="#475569">Multi-omique · RNA-seq · scRNA-seq · ML · Myopathies héréditaires</text>
+<rect x="398" y="7" width="114" height="20" rx="10" fill="#818cf818"/>
+<text x="455" y="21" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#818cf8" text-anchor="middle">4 213 échantillons</text>
+<!-- UMAP panel -->
+<rect x="8" y="40" width="240" height="154" rx="6" fill="#0a0b1e" stroke="#818cf820" stroke-width="1"/>
+<text x="16" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#4f46e5">UMAP — 14 clusters scRNA-seq</text>
+<!-- UMAP scatter dots — cluster 1 blue -->
+<circle cx="80" cy="95" r="3.5" fill="#60a5fa" opacity=".8"/>
+<circle cx="88" cy="100" r="3" fill="#60a5fa" opacity=".7"/>
+<circle cx="75" cy="105" r="3" fill="#60a5fa" opacity=".8"/>
+<circle cx="90" cy="110" r="2.5" fill="#60a5fa" opacity=".6"/>
+<circle cx="70" cy="112" r="3" fill="#60a5fa" opacity=".7"/>
+<circle cx="83" cy="88" r="2.5" fill="#60a5fa" opacity=".6"/>
+<circle cx="95" cy="92" r="3" fill="#60a5fa" opacity=".5"/>
+<!-- cluster 2 purple -->
+<circle cx="130" cy="75" r="3.5" fill="#a78bfa" opacity=".8"/>
+<circle cx="138" cy="82" r="3" fill="#a78bfa" opacity=".7"/>
+<circle cx="122" cy="84" r="3" fill="#a78bfa" opacity=".8"/>
+<circle cx="140" cy="70" r="2.5" fill="#a78bfa" opacity=".6"/>
+<circle cx="118" cy="72" r="3" fill="#a78bfa" opacity=".7"/>
+<circle cx="132" cy="68" r="2.5" fill="#a78bfa" opacity=".6"/>
+<!-- cluster 3 green -->
+<circle cx="170" cy="120" r="3.5" fill="#34d399" opacity=".8"/>
+<circle cx="178" cy="128" r="3" fill="#34d399" opacity=".7"/>
+<circle cx="162" cy="130" r="3" fill="#34d399" opacity=".8"/>
+<circle cx="180" cy="115" r="2.5" fill="#34d399" opacity=".6"/>
+<circle cx="155" cy="118" r="3" fill="#34d399" opacity=".7"/>
+<circle cx="172" cy="112" r="2.5" fill="#34d399" opacity=".5"/>
+<!-- cluster 4 orange -->
+<circle cx="110" cy="145" r="3.5" fill="#fb923c" opacity=".8"/>
+<circle cx="118" cy="152" r="3" fill="#fb923c" opacity=".7"/>
+<circle cx="102" cy="150" r="3" fill="#fb923c" opacity=".8"/>
+<circle cx="120" cy="140" r="2.5" fill="#fb923c" opacity=".6"/>
+<circle cx="98" cy="142" r="3" fill="#fb923c" opacity=".7"/>
+<!-- cluster 5 pink -->
+<circle cx="50" cy="140" r="3.5" fill="#f472b6" opacity=".8"/>
+<circle cx="58" cy="148" r="3" fill="#f472b6" opacity=".7"/>
+<circle cx="44" cy="148" r="3" fill="#f472b6" opacity=".8"/>
+<circle cx="62" cy="135" r="2.5" fill="#f472b6" opacity=".6"/>
+<circle cx="40" cy="136" r="3" fill="#f472b6" opacity=".5"/>
+<!-- cluster 6 yellow -->
+<circle cx="200" cy="80" r="3.5" fill="#fbbf24" opacity=".8"/>
+<circle cx="208" cy="88" r="3" fill="#fbbf24" opacity=".7"/>
+<circle cx="195" cy="88" r="3" fill="#fbbf24" opacity=".8"/>
+<circle cx="212" cy="75" r="2.5" fill="#fbbf24" opacity=".6"/>
+<circle cx="190" cy="72" r="3" fill="#fbbf24" opacity=".5"/>
+<!-- Axis labels -->
+<text x="128" y="183" font-family="system-ui,sans-serif" font-size="7" fill="#334155" text-anchor="middle">UMAP 1</text>
+<text x="16" y="120" font-family="system-ui,sans-serif" font-size="7" fill="#334155" transform="rotate(-90,16,120)">UMAP 2</text>
+<!-- Legend -->
+<circle cx="220" cy="67" r="3" fill="#60a5fa"/><text x="226" y="71" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8">Fibres I</text>
+<circle cx="220" cy="79" r="3" fill="#a78bfa"/><text x="226" y="83" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8">Fibres II</text>
+<circle cx="220" cy="91" r="3" fill="#34d399"/><text x="226" y="95" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8">Satellit.</text>
+<circle cx="220" cy="103" r="3" fill="#fb923c"/><text x="226" y="107" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8">Myo.</text>
+<circle cx="220" cy="115" r="3" fill="#f472b6"/><text x="226" y="119" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8">Endo.</text>
+<circle cx="220" cy="127" r="3" fill="#fbbf24"/><text x="226" y="131" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8">Fibro.</text>
+<!-- Right: Volcano + DE genes -->
+<rect x="256" y="40" width="256" height="154" rx="6" fill="#0a0b1e" stroke="#818cf820" stroke-width="1"/>
+<text x="264" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#4f46e5">Volcano Plot — DESeq2 · 847 gènes DE</text>
+<!-- Volcano axes -->
+<line x1="384" y1="165" x2="264" y2="165" stroke="#1e293b" stroke-width="1"/>
+<line x1="384" y1="65" x2="384" y2="165" stroke="#1e293b" stroke-width="1"/>
+<text x="384" y="175" font-family="system-ui,sans-serif" font-size="7" fill="#334155" text-anchor="middle">Log2 FC</text>
+<text x="270" y="130" font-family="system-ui,sans-serif" font-size="7" fill="#334155" transform="rotate(-90,270,120)">-log10(p)</text>
+<!-- Non-significant dots grey -->
+<circle cx="370" cy="140" r="2" fill="#334155" opacity=".6"/>
+<circle cx="360" cy="145" r="1.5" fill="#334155" opacity=".6"/>
+<circle cx="390" cy="138" r="2" fill="#334155" opacity=".6"/>
+<circle cx="380" cy="150" r="1.5" fill="#334155" opacity=".6"/>
+<circle cx="400" cy="148" r="2" fill="#334155" opacity=".6"/>
+<circle cx="375" cy="155" r="1.5" fill="#334155" opacity=".6"/>
+<circle cx="395" cy="142" r="2" fill="#334155" opacity=".5"/>
+<circle cx="365" cy="155" r="1.5" fill="#334155" opacity=".5"/>
+<!-- Up-regulated red dots right -->
+<circle cx="430" cy="90" r="3" fill="#f87171" opacity=".9"/>
+<circle cx="440" cy="82" r="2.5" fill="#f87171" opacity=".8"/>
+<circle cx="425" cy="78" r="3" fill="#f87171" opacity=".9"/>
+<circle cx="450" cy="95" r="2" fill="#f87171" opacity=".7"/>
+<circle cx="435" cy="100" r="2.5" fill="#f87171" opacity=".8"/>
+<circle cx="445" cy="75" r="3" fill="#f87171" opacity=".9"/>
+<circle cx="455" cy="88" r="2" fill="#f87171" opacity=".7"/>
+<circle cx="460" cy="100" r="2.5" fill="#f87171" opacity=".7"/>
+<circle cx="420" cy="110" r="2" fill="#f87171" opacity=".6"/>
+<!-- Down-regulated blue dots left -->
+<circle cx="335" cy="88" r="3" fill="#60a5fa" opacity=".9"/>
+<circle cx="325" cy="80" r="2.5" fill="#60a5fa" opacity=".8"/>
+<circle cx="340" cy="76" r="3" fill="#60a5fa" opacity=".9"/>
+<circle cx="315" cy="92" r="2" fill="#60a5fa" opacity=".7"/>
+<circle cx="330" cy="98" r="2.5" fill="#60a5fa" opacity=".8"/>
+<circle cx="320" cy="72" r="3" fill="#60a5fa" opacity=".9"/>
+<circle cx="308" cy="85" r="2" fill="#60a5fa" opacity=".7"/>
+<!-- Top gene labels -->
+<text x="445" y="72" font-family="monospace,sans-serif" font-size="7" fill="#fca5a5">MYH7</text>
+<text x="424" y="68" font-family="monospace,sans-serif" font-size="7" fill="#fca5a5">ACTA1</text>
+<text x="305" y="68" font-family="monospace,sans-serif" font-size="7" fill="#93c5fd">DMD</text>
+<text x="318" y="78" font-family="monospace,sans-serif" font-size="7" fill="#93c5fd">RYR1</text>
+<!-- Threshold lines -->
+<line x1="264" y1="110" x2="504" y2="110" stroke="#818cf825" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="350" y1="65" x2="350" y2="165" stroke="#818cf825" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="418" y1="65" x2="418" y2="165" stroke="#818cf825" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="267" y="108" font-family="system-ui,sans-serif" font-size="6" fill="#475569">p=0.05</text>
+</svg>

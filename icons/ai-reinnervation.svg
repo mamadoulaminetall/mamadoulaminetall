@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+  <defs>
+    <linearGradient id="rbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#120609"/><stop offset="100%" stop-color="#1a0a10"/></linearGradient>
+  </defs>
+  <rect width="400" height="130" fill="url(#rbg)" rx="8"/>
+  <rect x="0" y="0" width="400" height="22" fill="#180810" fill-opacity="0.95" rx="8"/>
+  <rect x="0" y="14" width="400" height="8" fill="#180810" fill-opacity="0.95"/>
+  <text x="10" y="15" font-family="monospace" font-size="8.5" fill="#fda4af" font-weight="700">Réinnervation IA — VFC/HRV · Post-transplantation</text>
+  <text x="330" y="15" font-family="monospace" font-size="7.5" fill="#64748b">AUC 0.961</text>
+
+  <!-- HRV metrics left -->
+  <rect x="8" y="27" width="155" height="95" rx="5" fill="#1a0a10" fill-opacity="0.7" stroke="#fda4af" stroke-width="0.4" stroke-opacity="0.3"/>
+  <text x="14" y="39" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">PARAMÈTRES VFC · J+180</text>
+  <text x="14" y="52" font-family="monospace" font-size="7" fill="#94a3b8">SDNN</text>
+  <text x="80" y="52" font-family="monospace" font-size="8" fill="#fda4af" font-weight="700">42 ms</text>
+  <text x="128" y="52" font-family="monospace" font-size="6.5" fill="#4ade80">↑ +18%</text>
+  <text x="14" y="65" font-family="monospace" font-size="7" fill="#94a3b8">RMSSD</text>
+  <text x="80" y="65" font-family="monospace" font-size="8" fill="#fda4af" font-weight="700">28 ms</text>
+  <text x="128" y="65" font-family="monospace" font-size="6.5" fill="#4ade80">↑ +12%</text>
+  <text x="14" y="78" font-family="monospace" font-size="7" fill="#94a3b8">pNN50</text>
+  <text x="80" y="78" font-family="monospace" font-size="8" fill="#fda4af" font-weight="700">8.4%</text>
+  <text x="128" y="78" font-family="monospace" font-size="6.5" fill="#4ade80">↑ +6%</text>
+  <text x="14" y="91" font-family="monospace" font-size="7" fill="#94a3b8">LF/HF</text>
+  <text x="80" y="91" font-family="monospace" font-size="8" fill="#fbbf24" font-weight="700">2.1</text>
+  <text x="128" y="91" font-family="monospace" font-size="6.5" fill="#fbbf24">→</text>
+  <text x="14" y="104" font-family="monospace" font-size="7" fill="#94a3b8">Délai greffe</text>
+  <text x="80" y="104" font-family="monospace" font-size="8" fill="#fda4af" font-weight="700">180 j</text>
+  <text x="14" y="116" font-family="monospace" font-size="6.5" fill="#64748b">Réinnervation partielle détectée</text>
+
+  <!-- Prediction score right -->
+  <rect x="170" y="27" width="110" height="95" rx="5" fill="#1a0a10" fill-opacity="0.7" stroke="#f87171" stroke-width="0.6"/>
+  <text x="176" y="39" font-family="monospace" font-size="7" fill="#94a3b8" font-weight="700">PRÉDICTION ML</text>
+  <text x="176" y="54" font-family="monospace" font-size="9" fill="#fda4af" font-weight="700">0.78</text>
+  <text x="176" y="65" font-family="monospace" font-size="7" fill="#f87171">Réinnervé</text>
+  <rect x="176" y="70" width="96" height="8" rx="3" fill="#2a0a10"/>
+  <rect x="176" y="70" width="75" height="8" rx="3" fill="#f87171" fill-opacity="0.65"/>
+  <text x="176" y="88" font-family="monospace" font-size="6.5" fill="#64748b">Seuil décision: 0.50</text>
+  <rect x="176" y="93" width="96" height="12" rx="3" fill="#16a34a" fill-opacity="0.15"/>
+  <text x="182" y="102" font-family="monospace" font-size="7" fill="#4ade80" font-weight="700">POSITIF ✓</text>
+  <text x="176" y="115" font-family="monospace" font-size="6.5" fill="#64748b">AUC = 0.961 · 127 patients</text>
+
+  <!-- Timeline sketch -->
+  <rect x="288" y="27" width="104" height="95" rx="5" fill="#1a0a10" fill-opacity="0.5" stroke="#fda4af" stroke-width="0.3" stroke-opacity="0.3"/>
+  <text x="294" y="38" font-family="monospace" font-size="6.5" fill="#64748b">VFC timeline post-greffe</text>
+  <polyline points="294,90 304,86 314,80 324,74 334,68 344,63 354,60 364,57 374,55 384,54" fill="none" stroke="#fda4af" stroke-width="1.2"/>
+  <polyline points="294,90 304,89 314,88 324,87 334,86 344,86 354,85 364,85 374,85 384,85" fill="none" stroke="#3b82f6" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="294" y="105" font-family="monospace" font-size="6" fill="#fda4af">— Patient</text>
+  <text x="294" y="114" font-family="monospace" font-size="6" fill="#3b82f6">-- Baseline</text>
+  <text x="293" y="47" font-family="monospace" font-size="5.5" fill="#64748b">J0    J30   J90  J180</text>
+</svg>

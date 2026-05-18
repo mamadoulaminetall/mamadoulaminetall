@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+<defs>
+  <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#100808"/><stop offset="100%" stop-color="#180a0a"/>
+  </linearGradient>
+</defs>
+<rect width="520" height="200" fill="url(#bg4)"/>
+<rect width="520" height="34" fill="#1a0909"/>
+<text x="14" y="22" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#f87171">AMR-AI</text>
+<text x="72" y="22" font-family="system-ui,sans-serif" font-size="9" fill="#475569">Analyse résistance antibiotiques · WGS · E. coli · 4 gènes détectés</text>
+<rect x="398" y="7" width="114" height="20" rx="10" fill="#f8717118"/>
+<text x="455" y="21" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#f87171" text-anchor="middle">Sensibilité 96%</text>
+<!-- Strain info box -->
+<rect x="8" y="40" width="504" height="20" rx="4" fill="#f8717110" stroke="#f8717128" stroke-width="1"/>
+<text x="16" y="53" font-family="system-ui,sans-serif" font-size="9" fill="#fca5a5">Souche :  E. coli  ST131 · WGS Illumina · 5.1 Mb · Gènes résistance : blaKPC-3 · mcr-1 · aac(6')·aph(2'') · sul1</text>
+<!-- Col headers -->
+<text x="14" y="76" font-family="system-ui,sans-serif" font-size="8" fill="#334155">ANTIBIOTIQUE</text>
+<text x="150" y="76" font-family="system-ui,sans-serif" font-size="8" fill="#334155">CLASSE</text>
+<text x="230" y="76" font-family="system-ui,sans-serif" font-size="8" fill="#334155">CMI</text>
+<text x="275" y="76" font-family="system-ui,sans-serif" font-size="8" fill="#334155">STATUT</text>
+<text x="360" y="76" font-family="system-ui,sans-serif" font-size="8" fill="#334155">GÈNE RESPONSABLE</text>
+<!-- Row 1 -->
+<rect x="8" y="79" width="504" height="20" rx="3" fill="#f8717112"/>
+<text x="14" y="93" font-family="system-ui,sans-serif" font-size="9" fill="#e2e8f0">Imipénème</text>
+<text x="150" y="93" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">Carbapénème</text>
+<text x="230" y="93" font-family="system-ui,sans-serif" font-size="9" fill="#f87171">≥16</text>
+<rect x="272" y="83" width="42" height="13" rx="6" fill="#f8717130"/>
+<text x="293" y="93" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f87171" text-anchor="middle">R</text>
+<text x="360" y="93" font-family="monospace,sans-serif" font-size="8" fill="#fca5a5">blaKPC-3</text>
+<!-- Row 2 -->
+<rect x="8" y="101" width="504" height="20" rx="3" fill="#f8717108"/>
+<text x="14" y="115" font-family="system-ui,sans-serif" font-size="9" fill="#e2e8f0">Ciprofloxacine</text>
+<text x="150" y="115" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">Fluoroquinolone</text>
+<text x="230" y="115" font-family="system-ui,sans-serif" font-size="9" fill="#f87171">≥4</text>
+<rect x="272" y="105" width="42" height="13" rx="6" fill="#f8717130"/>
+<text x="293" y="115" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f87171" text-anchor="middle">R</text>
+<text x="360" y="115" font-family="monospace,sans-serif" font-size="8" fill="#fca5a5">qnrS1 · gyrA</text>
+<!-- Row 3 -->
+<rect x="8" y="123" width="504" height="20" rx="3" fill="#f8717112"/>
+<text x="14" y="137" font-family="system-ui,sans-serif" font-size="9" fill="#e2e8f0">Colistine</text>
+<text x="150" y="137" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">Polymyxine</text>
+<text x="230" y="137" font-family="system-ui,sans-serif" font-size="9" fill="#f87171">≥4</text>
+<rect x="272" y="127" width="42" height="13" rx="6" fill="#f8717130"/>
+<text x="293" y="137" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#f87171" text-anchor="middle">R</text>
+<text x="360" y="137" font-family="monospace,sans-serif" font-size="8" fill="#fca5a5">mcr-1</text>
+<!-- Row 4 Sensitive -->
+<rect x="8" y="145" width="504" height="20" rx="3" fill="#10b9810a"/>
+<text x="14" y="159" font-family="system-ui,sans-serif" font-size="9" fill="#e2e8f0">Tigécycline</text>
+<text x="150" y="159" font-family="system-ui,sans-serif" font-size="8" fill="#64748b">Glycylcycline</text>
+<text x="230" y="159" font-family="system-ui,sans-serif" font-size="9" fill="#10b981">0.5</text>
+<rect x="272" y="149" width="42" height="13" rx="6" fill="#10b98125"/>
+<text x="293" y="159" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#10b981" text-anchor="middle">S</text>
+<text x="360" y="159" font-family="monospace,sans-serif" font-size="8" fill="#6ee7b7">—</text>
+<!-- Recommendation -->
+<rect x="8" y="170" width="504" height="24" rx="4" fill="#10b98112" stroke="#10b98128" stroke-width="1"/>
+<text x="16" y="184" font-family="system-ui,sans-serif" font-size="9" fill="#34d399">🤖  Recommandation IA : Tigécycline 100 mg IV · 12h — Résistance étendue (XDR) confirmée. Équipe infectiologie urgente.</text>
+</svg>

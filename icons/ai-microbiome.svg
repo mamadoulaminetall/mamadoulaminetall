@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200">
+<defs>
+  <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#05120f"/><stop offset="100%" stop-color="#071a15"/>
+  </linearGradient>
+</defs>
+<rect width="520" height="200" fill="url(#bg7)"/>
+<rect width="520" height="34" fill="#061611"/>
+<text x="14" y="22" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#5eead4">Microbiome &amp; Cancer</text>
+<text x="172" y="22" font-family="system-ui,sans-serif" font-size="9" fill="#475569">18 études · 2 587 patients · 5 cancers · Biomarqueurs diagnostiques</text>
+<rect x="398" y="7" width="114" height="20" rx="10" fill="#5eead418"/>
+<text x="455" y="21" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#5eead4" text-anchor="middle">AUC diag. 0.89</text>
+<!-- Shannon diversity bar chart -->
+<rect x="8" y="40" width="240" height="154" rx="6" fill="#060f0c" stroke="#5eead420" stroke-width="1"/>
+<text x="16" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#0d9488">DIVERSITÉ SHANNON — PAR CANCER</text>
+<!-- Y axis -->
+<line x1="55" y1="64" x2="55" y2="165" stroke="#1e293b" stroke-width="1"/>
+<line x1="55" y1="165" x2="230" y2="165" stroke="#1e293b" stroke-width="1"/>
+<text x="50" y="68" font-family="system-ui,sans-serif" font-size="7" fill="#334155" text-anchor="end">4.0</text>
+<text x="50" y="90" font-family="system-ui,sans-serif" font-size="7" fill="#334155" text-anchor="end">3.0</text>
+<text x="50" y="112" font-family="system-ui,sans-serif" font-size="7" fill="#334155" text-anchor="end">2.0</text>
+<text x="50" y="134" font-family="system-ui,sans-serif" font-size="7" fill="#334155" text-anchor="end">1.0</text>
+<!-- Bars (5 cancers) -->
+<!-- CRC bar green -->
+<rect x="65" y="80" width="22" height="85" rx="3" fill="#5eead4" opacity=".8"/>
+<text x="76" y="175" font-family="system-ui,sans-serif" font-size="7" fill="#5eead4" text-anchor="middle">CRC</text>
+<text x="76" y="76" font-family="system-ui,sans-serif" font-size="7" fill="#5eead4" text-anchor="middle">3.8</text>
+<!-- Pancreas bar orange -->
+<rect x="100" y="96" width="22" height="69" rx="3" fill="#fb923c" opacity=".8"/>
+<text x="111" y="175" font-family="system-ui,sans-serif" font-size="7" fill="#fb923c" text-anchor="middle">Pancr.</text>
+<text x="111" y="92" font-family="system-ui,sans-serif" font-size="7" fill="#fb923c" text-anchor="middle">3.1</text>
+<!-- Gastric bar blue -->
+<rect x="135" y="110" width="22" height="55" rx="3" fill="#60a5fa" opacity=".8"/>
+<text x="146" y="175" font-family="system-ui,sans-serif" font-size="7" fill="#60a5fa" text-anchor="middle">Gastr.</text>
+<text x="146" y="106" font-family="system-ui,sans-serif" font-size="7" fill="#60a5fa" text-anchor="middle">2.5</text>
+<!-- Ovarian bar purple -->
+<rect x="170" y="120" width="22" height="45" rx="3" fill="#a78bfa" opacity=".8"/>
+<text x="181" y="175" font-family="system-ui,sans-serif" font-size="7" fill="#a78bfa" text-anchor="middle">Ovar.</text>
+<text x="181" y="116" font-family="system-ui,sans-serif" font-size="7" fill="#a78bfa" text-anchor="middle">2.0</text>
+<!-- Lung bar pink -->
+<rect x="205" y="130" width="22" height="35" rx="3" fill="#f472b6" opacity=".8"/>
+<text x="216" y="175" font-family="system-ui,sans-serif" font-size="7" fill="#f472b6" text-anchor="middle">Pulm.</text>
+<text x="216" y="126" font-family="system-ui,sans-serif" font-size="7" fill="#f472b6" text-anchor="middle">1.6</text>
+<!-- Right panel: top species -->
+<rect x="256" y="40" width="256" height="154" rx="6" fill="#060f0c" stroke="#5eead420" stroke-width="1"/>
+<text x="264" y="56" font-family="system-ui,sans-serif" font-size="8" fill="#0d9488">SIGNATURES MICROBIOME · BIOMARQUEURS</text>
+<!-- Species rows -->
+<rect x="264" y="60" width="240" height="18" rx="3" fill="#5eead410"/>
+<text x="270" y="73" font-family="system-ui,sans-serif" font-size="8" font-style="italic" fill="#e2e8f0">Fusobacterium nucleatum</text>
+<rect x="408" y="63" width="40" height="12" rx="6" fill="#f8717120"/>
+<text x="428" y="73" font-family="system-ui,sans-serif" font-size="7" fill="#f87171" text-anchor="middle">↑ CRC</text>
+<text x="480" y="73" font-family="system-ui,sans-serif" font-size="8" fill="#5eead4">OR 4.2</text>
+<rect x="264" y="80" width="240" height="18" rx="3" fill="#5eead408"/>
+<text x="270" y="93" font-family="system-ui,sans-serif" font-size="8" font-style="italic" fill="#e2e8f0">Faecalibacterium prausnitzii</text>
+<rect x="408" y="83" width="40" height="12" rx="6" fill="#10b98120"/>
+<text x="428" y="93" font-family="system-ui,sans-serif" font-size="7" fill="#10b981" text-anchor="middle">↓ CRC</text>
+<text x="480" y="93" font-family="system-ui,sans-serif" font-size="8" fill="#5eead4">OR 0.3</text>
+<rect x="264" y="100" width="240" height="18" rx="3" fill="#5eead410"/>
+<text x="270" y="113" font-family="system-ui,sans-serif" font-size="8" font-style="italic" fill="#e2e8f0">Porphyromonas gingivalis</text>
+<rect x="414" y="103" width="46" height="12" rx="6" fill="#fb923c20"/>
+<text x="437" y="113" font-family="system-ui,sans-serif" font-size="7" fill="#fb923c" text-anchor="middle">↑ Pancr.</text>
+<text x="480" y="113" font-family="system-ui,sans-serif" font-size="8" fill="#5eead4">OR 3.8</text>
+<rect x="264" y="120" width="240" height="18" rx="3" fill="#5eead408"/>
+<text x="270" y="133" font-family="system-ui,sans-serif" font-size="8" font-style="italic" fill="#e2e8f0">Lactobacillus acidophilus</text>
+<rect x="408" y="123" width="40" height="12" rx="6" fill="#10b98120"/>
+<text x="428" y="133" font-family="system-ui,sans-serif" font-size="7" fill="#10b981" text-anchor="middle">↓ Gastr.</text>
+<text x="480" y="133" font-family="system-ui,sans-serif" font-size="8" fill="#5eead4">OR 0.4</text>
+<rect x="264" y="140" width="240" height="18" rx="3" fill="#5eead410"/>
+<text x="270" y="153" font-family="system-ui,sans-serif" font-size="8" font-style="italic" fill="#e2e8f0">Helicobacter pylori</text>
+<rect x="408" y="143" width="40" height="12" rx="6" fill="#60a5fa20"/>
+<text x="428" y="153" font-family="system-ui,sans-serif" font-size="7" fill="#60a5fa" text-anchor="middle">↑ Gastr.</text>
+<text x="480" y="153" font-family="system-ui,sans-serif" font-size="8" fill="#5eead4">OR 5.1</text>
+<!-- AUC badges -->
+<rect x="264" y="163" width="240" height="24" rx="4" fill="#0d948815" stroke="#0d948830" stroke-width="1"/>
+<text x="272" y="177" font-family="system-ui,sans-serif" font-size="8" fill="#5eead4">AUC CRC : 0.92</text>
+<text x="350" y="177" font-family="system-ui,sans-serif" font-size="8" fill="#fb923c">AUC Pancr. : 0.87</text>
+<text x="432" y="177" font-family="system-ui,sans-serif" font-size="8" fill="#60a5fa">AUC Gastr. : 0.84</text>
+</svg>
